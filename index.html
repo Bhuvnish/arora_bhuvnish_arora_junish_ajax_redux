@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Star Wars Movie Viewer</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap" rel="stylesheet">
+  <link href="css/grid.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <script defer src="js/main.js"></script>
+</head>
+<body class="grid-con">
+  <header class="col-span-full l-col-span-full m-col-span-full">
+    <!-- No image in the header -->
+  </header>
+
+  <div id="character-list" class="col-span-2 l-col-span-6 m-col-span-6">
+    <h1>Star Wars Characters</h1>
+    <ul></ul>
+  </div>
+
+  <div id="movie-details" class="col-span-2 l-col-span-6 m-col-span-6">
+    <h2>Movie Details</h2>
+    <p id="movie-title"></p>
+    <p id="opening-crawl"></p>
+    <img id="movie-poster" alt="Movie Poster">
+  </div>
+
+  <div id="loading-icon"><img src="./images/Ripple-1s-200px.svg" alt="Loading"></div>
+
+  <template id="movie-template"></template>
+</body>
+</html>
