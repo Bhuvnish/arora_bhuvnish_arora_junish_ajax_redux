@@ -1,16 +1,7 @@
-// Variables for easy theming
-$font-main: 'Open Sans', sans-serif;
-$background-color: #3562bb; // Dark background for a cool look
-$text-color: #ffffff;
-$link-color: #ffffff;
-$link-hover-color: #007bff;
-$loading-color: #f8f9fa;
 
 // Body and global styles
 body {
-    font-family: $font-main;
-    background-color: $background-color;
-    color: $text-color;
+
     margin: 0;
     padding: 0;
     display: flex;
@@ -18,6 +9,8 @@ body {
  
     min-height: 100vh;
 }
+
+
 
 // Styles for character list
 #character-list {
