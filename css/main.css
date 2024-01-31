@@ -1,4 +1,4 @@
-#character-list h2 {
+#character-list-container h2 {
   margin-bottom: 25px;
   margin-top: 50px;
   color: aliceblue;
@@ -9,21 +9,21 @@
   text-align: center;
   border-radius: 7px;
 }
-#character-list ul {
+#character-list-container ul {
   list-style: none;
   padding: 0;
 }
-#character-list ul li {
+#character-list-container ul li {
   margin: 10px 0;
 }
-#character-list ul li a {
+#character-list-container ul li a {
   color: rgb(208, 139, 0);
   text-decoration: none;
   font-family: "Prata", serif;
   font-size: 20px;
 }
 
-#movie-details {
+#movie-details-container {
   display: none;
   text-align: center;
   color: rgb(208, 139, 0);
@@ -35,31 +35,28 @@
   background-size: cover;
   background-blend-mode: multiply;
 }
-#movie-details h2 {
+#movie-details-container h2 {
   margin-bottom: 30px;
   font-family: "Black Ops One", system-ui;
   font-size: 40px;
   color: rgb(255, 255, 255);
 }
-#movie-details p {
+#movie-details-container p {
   font-size: 20px;
   font-family: "Black Ops One", system-ui;
   background-color: rgba(0, 0, 0, 0.5607843137);
 }
-#movie-details img {
+#movie-details-container img {
   max-width: 100%;
   height: auto;
   border-radius: 5px;
 }
 
-#background {
+#galactic-background {
   background-color: rgb(62, 65, 64);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-blend-mode: multiply;
 }
 
-#header {
+#galactic-header {
   font-size: 50px;
   text-align: center;
   color: rgb(208, 139, 0);

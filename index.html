@@ -1,41 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Star Wars</title>
+  <title>starwars</title>
   <meta charset="utf-8">
  
   <link href="css/grid.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
  
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-<link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Honk&family=Prata&family=Whisper&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Honk&family=Prata&family=Whisper&display=swap" rel="stylesheet">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollTrigger.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollToPlugin.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollToPlugin.min.js"></script>
   <script defer src="js/main.js"></script>
 </head>
-<body id="background" class="grid-con">
-  <header  id="header" class="col-span-full l-col-span-full m-col-span-full  ">
-     <h2> STAR WARS</h2>
-   
+<body id="galactic-background" class="grid-con">
+  <header id="galactic-header" class="col-span-full l-col-span-full m-col-span-full">
+    <h2> STAR WARS</h2>
   </header>
 
-  <div id="character-list" class="col-span-2 l-col-span-6 m-col-span-6">
-    <h2>Star Wars Characters</h2>
-
-    <ul></ul>
+  <div id="character-list-container" class="col-span-2 l-col-span-6 m-col-span-6">
+    <h2>STAR WARS  CHARACTERS</h2>
+    <ul id="character-list"></ul>
   </div>
 
-  <div id="movie-details" class="col-span-2 l-col-span-6 m-col-span-6">
-    <h2>Movie Details</h2>
-    <p id="movie-title"></p>
-    <p id="opening-crawl"></p>
-    <img id="movie-poster" alt="Movie Poster">
+  <div id="movie-details-container" class="col-span-2 l-col-span-6 m-col-span-6">
+    <h2> movie</h2>
+    <p id="adventure-title"></p>
+    <p id="galactic-crawl"></p>
+    <img id="adventure-poster" alt="Adventure Poster">
   </div>
 
-  <div id="loading-icon"><img src="images/1486.gif" alt="Loading"></div>
+  <div id="loading-spinner"><img src="images/1486.gif" alt="Loading"></div>
 
-  <template id="movie-template"></template>
+  <template id="adventure-template"></template>
 </body>
 </html>
