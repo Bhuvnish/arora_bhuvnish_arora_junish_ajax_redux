@@ -63,7 +63,7 @@
    function displayAdventureDetails(adventure) {
      movieDetailsContainer.style.display = 'block';
      adventureTitle.textContent = 'Title: ' + adventure.title;
-     galacticCrawl.textContent = 'Opening Crawl: ' + (adventure.opening_crawl || "No opening crawl available");
+     galacticCrawl.textContent = 'Opening Crawl: ' + (adventure.opening_crawl);
      adventurePoster.src = './images/' + adventure.episode_id + '.jpg';
      adventurePoster.alt = adventure.title + ' Poster';
    }
