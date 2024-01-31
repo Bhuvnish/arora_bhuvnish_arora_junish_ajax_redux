@@ -1,10 +1,5 @@
-
-
-
-
-#character-list {
+#character-list-container {
     h2 {
-        
         margin-bottom: 25px;
         margin-top: 50px;
         color: aliceblue;
@@ -13,8 +8,6 @@
         font-family: 'Black Ops One', system-ui;
         font-size: 40px;
         text-align: center;
-        
-      
         border-radius: 7px;
     }
 
@@ -29,52 +22,35 @@
                 color: rgb(208, 139, 0);
                 text-decoration: none;
                 font-family: 'Prata', serif;
-
                 font-size: 20px;
-               
-                
-
-              
             }
         }
     }
 }
 
-
-#movie-details {
+#movie-details-container {
     display: none;
     text-align: center;
-    color:rgb(208, 139, 0);
-    //background-color: rgb(0, 0, 0);
+    color: rgb(208, 139, 0);
     border: 2px solid #d6d6d6;
     margin-top: 50px;
-      
     border-radius: 7px;
-
-   
-        background: url(../images/background.gif)  no-repeat ;
-        background-repeat: no-repeat;
-        background-size: cover;
-     
-        background-blend-mode: multiply;
-    
-
-    
+    background: url(../images/background.gif) no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
 
     h2 {
         margin-bottom: 30px;
         font-family: 'Black Ops One', system-ui;
         font-size: 40px;
         color: rgb(255, 255, 255);
-       
     }
 
-    p{
+    p {
         font-size: 20px;
         font-family: 'Black Ops One', system-ui;
-
         background-color: #0000008f;
-
     }
 
     img {
@@ -84,30 +60,17 @@
     }
 }
 
+#galactic-background {
+    background-color: rgb(62, 65, 64);
+}
 
-#background{
-    //background: url(../images/background.gif)  no-repeat ;
-  
-   background-color: rgb(62, 65, 64);
-   
- 
-   
-    background-repeat: no-repeat;
-    background-size: cover;
- 
-    background-blend-mode: multiply;
- }
-
- #header{
+#galactic-header {
     font-size: 50px;
     text-align: center;
     color: rgb(208, 139, 0);
     font-family: 'Prata', serif;
-
-background-color: rgb(86, 86, 86);
-border: 2px solid #d6d6d6;
-margin-top: 20px;
-
-  
-border-radius: 7px;
- }
+    background-color: rgb(86, 86, 86);
+    border: 2px solid #d6d6d6;
+    margin-top: 20px;
+    border-radius: 7px;
+}
