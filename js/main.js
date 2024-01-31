@@ -48,8 +48,8 @@
         return fetchData(filmUrl);
       }))
       .then(function(filmsData) {
-        var firstFilmData = filmsData[0];
-        displayMovieDetails(firstFilmData);
+        const FilmData = filmsData[0];
+        displayMovieDetails(FilmData);
       })
       .catch(function(error) {
         console.error('Error fetching film data:', error);
