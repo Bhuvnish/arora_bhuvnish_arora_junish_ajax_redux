@@ -22,7 +22,7 @@
   }
 
   function displayLoadingSpinner(element) {
-    element.innerHTML = '<img src="./images/Ripple-1s-200px.svg" alt="Loading">';
+    element.innerHTML = '<img src="./images/1486.gif" alt="Loading">';
   }
 
   function displayCharacters(characters) {

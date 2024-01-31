@@ -1,41 +1,10 @@
-p, h1, h2, h3 {
-  font-family: "Open Sans", Arial, sans-serif;
-}
-
-p {
-  margin-bottom: 20px;
-}
-
-h2 {
-  margin-top: 20px;
-  font-weight: 600;
-  font-size: 24px;
-  margin-bottom: 20px;
-}
-
-h3 {
-  font-weight: 600;
-  font-size: 18px;
-}
-
-p {
-  font-weight: 300;
-  font-size: 16px;
-}
-
-body {
-  font-family: "Open Sans", sans-serif;
-  background-color: #282c34;
-  color: #ffffff;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
-
-#character-list h1 {
-  margin-bottom: 20px;
+#character-list h2 {
+  margin-bottom: 25px;
+  margin-top: 50px;
+  color: aliceblue;
+  background-color: rgba(0, 0, 0, 0.436);
+  border: 2px solid #d6d6d6;
+  border-radius: 7px;
 }
 #character-list ul {
   list-style: none;
@@ -45,17 +14,18 @@ body {
   margin: 10px 0;
 }
 #character-list ul li a {
-  color: white;
+  color: rgb(208, 139, 0);
   text-decoration: none;
-  transition: color 0.3s;
-}
-#character-list ul li a:hover {
-  color: #007bff;
 }
 
 #movie-details {
   display: none;
   text-align: center;
+  color: rgb(208, 139, 0);
+  background-color: rgb(0, 0, 0);
+  border: 2px solid #d6d6d6;
+  margin-top: 50px;
+  border-radius: 7px;
 }
 #movie-details h2 {
   margin-bottom: 10px;
@@ -66,6 +36,21 @@ body {
   border-radius: 5px;
 }
 
+#background {
+  background-color: rgb(62, 65, 64);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: multiply;
+}
+
+#header {
+  font-size: 50px;
+  text-align: center;
+  color: rgb(208, 139, 0);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: rgb(86, 86, 86);
+}
+
 a {
   cursor: pointer;
-}
+}/*# sourceMappingURL=main.css.map */
